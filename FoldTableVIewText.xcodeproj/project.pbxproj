@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		836CF9B81E275B3500E913F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 836CF9B71E275B3500E913F6 /* main.m */; };
+		836CF9BB1E275B3500E913F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 836CF9BA1E275B3500E913F6 /* AppDelegate.m */; };
+		836CF9BE1E275B3500E913F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836CF9BD1E275B3500E913F6 /* ViewController.m */; };
+		836CF9C11E275B3500E913F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836CF9BF1E275B3500E913F6 /* Main.storyboard */; };
+		836CF9C31E275B3500E913F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836CF9C21E275B3500E913F6 /* Assets.xcassets */; };
+		836CF9C61E275B3500E913F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836CF9C41E275B3500E913F6 /* LaunchScreen.storyboard */; };
+		836CF9D11E275B3500E913F6 /* FoldTableVIewTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836CF9D01E275B3500E913F6 /* FoldTableVIewTextTests.m */; };
+		836CF9DC1E275B3500E913F6 /* FoldTableVIewTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836CF9DB1E275B3500E913F6 /* FoldTableVIewTextUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		836CF9CD1E275B3500E913F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 836CF9AB1E275B3500E913F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836CF9B21E275B3500E913F6;
+			remoteInfo = FoldTableVIewText;
+		};
+		836CF9D81E275B3500E913F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 836CF9AB1E275B3500E913F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836CF9B21E275B3500E913F6;
+			remoteInfo = FoldTableVIewText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		836CF9B31E275B3500E913F6 /* FoldTableVIewText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoldTableVIewText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		836CF9B71E275B3500E913F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		836CF9B91E275B3500E913F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		836CF9BA1E275B3500E913F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		836CF9BC1E275B3500E913F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		836CF9BD1E275B3500E913F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		836CF9C01E275B3500E913F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		836CF9C21E275B3500E913F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		836CF9C51E275B3500E913F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		836CF9C71E275B3500E913F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836CF9CC1E275B3500E913F6 /* FoldTableVIewTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoldTableVIewTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		836CF9D01E275B3500E913F6 /* FoldTableVIewTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoldTableVIewTextTests.m; sourceTree = "<group>"; };
+		836CF9D21E275B3500E913F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836CF9D71E275B3500E913F6 /* FoldTableVIewTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoldTableVIewTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		836CF9DB1E275B3500E913F6 /* FoldTableVIewTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoldTableVIewTextUITests.m; sourceTree = "<group>"; };
+		836CF9DD1E275B3500E913F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		836CF9B01E275B3500E913F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836CF9C91E275B3500E913F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836CF9D41E275B3500E913F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		836CF9AA1E275B3500E913F6 = {
+			isa = PBXGroup;
+			children = (
+				836CF9B51E275B3500E913F6 /* FoldTableVIewText */,
+				836CF9CF1E275B3500E913F6 /* FoldTableVIewTextTests */,
+				836CF9DA1E275B3500E913F6 /* FoldTableVIewTextUITests */,
+				836CF9B41E275B3500E913F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		836CF9B41E275B3500E913F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				836CF9B31E275B3500E913F6 /* FoldTableVIewText.app */,
+				836CF9CC1E275B3500E913F6 /* FoldTableVIewTextTests.xctest */,
+				836CF9D71E275B3500E913F6 /* FoldTableVIewTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		836CF9B51E275B3500E913F6 /* FoldTableVIewText */ = {
+			isa = PBXGroup;
+			children = (
+				836CF9B91E275B3500E913F6 /* AppDelegate.h */,
+				836CF9BA1E275B3500E913F6 /* AppDelegate.m */,
+				836CF9BC1E275B3500E913F6 /* ViewController.h */,
+				836CF9BD1E275B3500E913F6 /* ViewController.m */,
+				836CF9BF1E275B3500E913F6 /* Main.storyboard */,
+				836CF9C21E275B3500E913F6 /* Assets.xcassets */,
+				836CF9C41E275B3500E913F6 /* LaunchScreen.storyboard */,
+				836CF9C71E275B3500E913F6 /* Info.plist */,
+				836CF9B61E275B3500E913F6 /* Supporting Files */,
+			);
+			path = FoldTableVIewText;
+			sourceTree = "<group>";
+		};
+		836CF9B61E275B3500E913F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				836CF9B71E275B3500E913F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		836CF9CF1E275B3500E913F6 /* FoldTableVIewTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				836CF9D01E275B3500E913F6 /* FoldTableVIewTextTests.m */,
+				836CF9D21E275B3500E913F6 /* Info.plist */,
+			);
+			path = FoldTableVIewTextTests;
+			sourceTree = "<group>";
+		};
+		836CF9DA1E275B3500E913F6 /* FoldTableVIewTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				836CF9DB1E275B3500E913F6 /* FoldTableVIewTextUITests.m */,
+				836CF9DD1E275B3500E913F6 /* Info.plist */,
+			);
+			path = FoldTableVIewTextUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		836CF9B21E275B3500E913F6 /* FoldTableVIewText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836CF9E01E275B3500E913F6 /* Build configuration list for PBXNativeTarget "FoldTableVIewText" */;
+			buildPhases = (
+				836CF9AF1E275B3500E913F6 /* Sources */,
+				836CF9B01E275B3500E913F6 /* Frameworks */,
+				836CF9B11E275B3500E913F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoldTableVIewText;
+			productName = FoldTableVIewText;
+			productReference = 836CF9B31E275B3500E913F6 /* FoldTableVIewText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		836CF9CB1E275B3500E913F6 /* FoldTableVIewTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836CF9E31E275B3500E913F6 /* Build configuration list for PBXNativeTarget "FoldTableVIewTextTests" */;
+			buildPhases = (
+				836CF9C81E275B3500E913F6 /* Sources */,
+				836CF9C91E275B3500E913F6 /* Frameworks */,
+				836CF9CA1E275B3500E913F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				836CF9CE1E275B3500E913F6 /* PBXTargetDependency */,
+			);
+			name = FoldTableVIewTextTests;
+			productName = FoldTableVIewTextTests;
+			productReference = 836CF9CC1E275B3500E913F6 /* FoldTableVIewTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		836CF9D61E275B3500E913F6 /* FoldTableVIewTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836CF9E61E275B3500E913F6 /* Build configuration list for PBXNativeTarget "FoldTableVIewTextUITests" */;
+			buildPhases = (
+				836CF9D31E275B3500E913F6 /* Sources */,
+				836CF9D41E275B3500E913F6 /* Frameworks */,
+				836CF9D51E275B3500E913F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				836CF9D91E275B3500E913F6 /* PBXTargetDependency */,
+			);
+			name = FoldTableVIewTextUITests;
+			productName = FoldTableVIewTextUITests;
+			productReference = 836CF9D71E275B3500E913F6 /* FoldTableVIewTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		836CF9AB1E275B3500E913F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = co;
+				TargetAttributes = {
+					836CF9B21E275B3500E913F6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					836CF9CB1E275B3500E913F6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 836CF9B21E275B3500E913F6;
+					};
+					836CF9D61E275B3500E913F6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 836CF9B21E275B3500E913F6;
+					};
+				};
+			};
+			buildConfigurationList = 836CF9AE1E275B3500E913F6 /* Build configuration list for PBXProject "FoldTableVIewText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 836CF9AA1E275B3500E913F6;
+			productRefGroup = 836CF9B41E275B3500E913F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				836CF9B21E275B3500E913F6 /* FoldTableVIewText */,
+				836CF9CB1E275B3500E913F6 /* FoldTableVIewTextTests */,
+				836CF9D61E275B3500E913F6 /* FoldTableVIewTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		836CF9B11E275B3500E913F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836CF9C61E275B3500E913F6 /* LaunchScreen.storyboard in Resources */,
+				836CF9C31E275B3500E913F6 /* Assets.xcassets in Resources */,
+				836CF9C11E275B3500E913F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836CF9CA1E275B3500E913F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836CF9D51E275B3500E913F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		836CF9AF1E275B3500E913F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836CF9BE1E275B3500E913F6 /* ViewController.m in Sources */,
+				836CF9BB1E275B3500E913F6 /* AppDelegate.m in Sources */,
+				836CF9B81E275B3500E913F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836CF9C81E275B3500E913F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836CF9D11E275B3500E913F6 /* FoldTableVIewTextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836CF9D31E275B3500E913F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836CF9DC1E275B3500E913F6 /* FoldTableVIewTextUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		836CF9CE1E275B3500E913F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836CF9B21E275B3500E913F6 /* FoldTableVIewText */;
+			targetProxy = 836CF9CD1E275B3500E913F6 /* PBXContainerItemProxy */;
+		};
+		836CF9D91E275B3500E913F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836CF9B21E275B3500E913F6 /* FoldTableVIewText */;
+			targetProxy = 836CF9D81E275B3500E913F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		836CF9BF1E275B3500E913F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836CF9C01E275B3500E913F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		836CF9C41E275B3500E913F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836CF9C51E275B3500E913F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		836CF9DE1E275B3500E913F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		836CF9DF1E275B3500E913F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		836CF9E11E275B3500E913F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoldTableVIewText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.futuremove.FoldTableVIewText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		836CF9E21E275B3500E913F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoldTableVIewText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.futuremove.FoldTableVIewText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		836CF9E41E275B3500E913F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FoldTableVIewTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.futuremove.FoldTableVIewTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoldTableVIewText.app/FoldTableVIewText";
+			};
+			name = Debug;
+		};
+		836CF9E51E275B3500E913F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FoldTableVIewTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.futuremove.FoldTableVIewTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoldTableVIewText.app/FoldTableVIewText";
+			};
+			name = Release;
+		};
+		836CF9E71E275B3500E913F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FoldTableVIewTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.futuremove.FoldTableVIewTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FoldTableVIewText;
+			};
+			name = Debug;
+		};
+		836CF9E81E275B3500E913F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FoldTableVIewTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.futuremove.FoldTableVIewTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FoldTableVIewText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		836CF9AE1E275B3500E913F6 /* Build configuration list for PBXProject "FoldTableVIewText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836CF9DE1E275B3500E913F6 /* Debug */,
+				836CF9DF1E275B3500E913F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836CF9E01E275B3500E913F6 /* Build configuration list for PBXNativeTarget "FoldTableVIewText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836CF9E11E275B3500E913F6 /* Debug */,
+				836CF9E21E275B3500E913F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		836CF9E31E275B3500E913F6 /* Build configuration list for PBXNativeTarget "FoldTableVIewTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836CF9E41E275B3500E913F6 /* Debug */,
+				836CF9E51E275B3500E913F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		836CF9E61E275B3500E913F6 /* Build configuration list for PBXNativeTarget "FoldTableVIewTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836CF9E71E275B3500E913F6 /* Debug */,
+				836CF9E81E275B3500E913F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 836CF9AB1E275B3500E913F6 /* Project object */;
+}
