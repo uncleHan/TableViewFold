@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		836CF9B81E275B3500E913F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 836CF9B71E275B3500E913F6 /* main.m */; };
 		836CF9BB1E275B3500E913F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 836CF9BA1E275B3500E913F6 /* AppDelegate.m */; };
-		836CF9BE1E275B3500E913F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836CF9BD1E275B3500E913F6 /* ViewController.m */; };
 		836CF9C11E275B3500E913F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836CF9BF1E275B3500E913F6 /* Main.storyboard */; };
 		836CF9C31E275B3500E913F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836CF9C21E275B3500E913F6 /* Assets.xcassets */; };
 		836CF9C61E275B3500E913F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836CF9C41E275B3500E913F6 /* LaunchScreen.storyboard */; };
 		836CF9D11E275B3500E913F6 /* FoldTableVIewTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836CF9D01E275B3500E913F6 /* FoldTableVIewTextTests.m */; };
 		836CF9DC1E275B3500E913F6 /* FoldTableVIewTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836CF9DB1E275B3500E913F6 /* FoldTableVIewTextUITests.m */; };
+		836CF9EA1E275C6200E913F6 /* ProvinceData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 836CF9E91E275C6200E913F6 /* ProvinceData.plist */; };
+		836CF9ED1E2760EB00E913F6 /* ProvinceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836CF9EC1E2760EB00E913F6 /* ProvinceViewController.m */; };
+		836CF9F11E27724A00E913F6 /* CityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 836CF9EF1E27724A00E913F6 /* CityTableViewCell.m */; };
+		836CF9F21E27724A00E913F6 /* CityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 836CF9F01E27724A00E913F6 /* CityTableViewCell.xib */; };
+		836CF9F61E27876000E913F6 /* caret_open@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836CF9F31E27876000E913F6 /* caret_open@1x.png */; };
+		836CF9F71E27876000E913F6 /* caret_open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836CF9F41E27876000E913F6 /* caret_open@2x.png */; };
+		836CF9F81E27876000E913F6 /* caret_open@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836CF9F51E27876000E913F6 /* caret_open@3x.png */; };
+		836CF9FC1E27877A00E913F6 /* caret@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836CF9F91E27877A00E913F6 /* caret@1x.png */; };
+		836CF9FD1E27877A00E913F6 /* caret@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836CF9FA1E27877A00E913F6 /* caret@2x.png */; };
+		836CF9FE1E27877A00E913F6 /* caret@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836CF9FB1E27877A00E913F6 /* caret@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +48,6 @@
 		836CF9B71E275B3500E913F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		836CF9B91E275B3500E913F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		836CF9BA1E275B3500E913F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		836CF9BC1E275B3500E913F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		836CF9BD1E275B3500E913F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		836CF9C01E275B3500E913F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		836CF9C21E275B3500E913F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		836CF9C51E275B3500E913F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,18 @@
 		836CF9D71E275B3500E913F6 /* FoldTableVIewTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoldTableVIewTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		836CF9DB1E275B3500E913F6 /* FoldTableVIewTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoldTableVIewTextUITests.m; sourceTree = "<group>"; };
 		836CF9DD1E275B3500E913F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836CF9E91E275C6200E913F6 /* ProvinceData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ProvinceData.plist; path = ../ProvinceData.plist; sourceTree = "<group>"; };
+		836CF9EB1E2760EB00E913F6 /* ProvinceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceViewController.h; sourceTree = "<group>"; };
+		836CF9EC1E2760EB00E913F6 /* ProvinceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceViewController.m; sourceTree = "<group>"; };
+		836CF9EE1E27724A00E913F6 /* CityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewCell.h; sourceTree = "<group>"; };
+		836CF9EF1E27724A00E913F6 /* CityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewCell.m; sourceTree = "<group>"; };
+		836CF9F01E27724A00E913F6 /* CityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityTableViewCell.xib; sourceTree = "<group>"; };
+		836CF9F31E27876000E913F6 /* caret_open@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caret_open@1x.png"; sourceTree = "<group>"; };
+		836CF9F41E27876000E913F6 /* caret_open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caret_open@2x.png"; sourceTree = "<group>"; };
+		836CF9F51E27876000E913F6 /* caret_open@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caret_open@3x.png"; sourceTree = "<group>"; };
+		836CF9F91E27877A00E913F6 /* caret@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caret@1x.png"; sourceTree = "<group>"; };
+		836CF9FA1E27877A00E913F6 /* caret@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caret@2x.png"; sourceTree = "<group>"; };
+		836CF9FB1E27877A00E913F6 /* caret@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caret@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +120,19 @@
 		836CF9B51E275B3500E913F6 /* FoldTableVIewText */ = {
 			isa = PBXGroup;
 			children = (
+				836CF9EB1E2760EB00E913F6 /* ProvinceViewController.h */,
+				836CF9EC1E2760EB00E913F6 /* ProvinceViewController.m */,
 				836CF9B91E275B3500E913F6 /* AppDelegate.h */,
 				836CF9BA1E275B3500E913F6 /* AppDelegate.m */,
-				836CF9BC1E275B3500E913F6 /* ViewController.h */,
-				836CF9BD1E275B3500E913F6 /* ViewController.m */,
 				836CF9BF1E275B3500E913F6 /* Main.storyboard */,
+				836CF9E91E275C6200E913F6 /* ProvinceData.plist */,
 				836CF9C21E275B3500E913F6 /* Assets.xcassets */,
 				836CF9C41E275B3500E913F6 /* LaunchScreen.storyboard */,
 				836CF9C71E275B3500E913F6 /* Info.plist */,
 				836CF9B61E275B3500E913F6 /* Supporting Files */,
+				836CF9EE1E27724A00E913F6 /* CityTableViewCell.h */,
+				836CF9EF1E27724A00E913F6 /* CityTableViewCell.m */,
+				836CF9F01E27724A00E913F6 /* CityTableViewCell.xib */,
 			);
 			path = FoldTableVIewText;
 			sourceTree = "<group>";
@@ -117,6 +140,12 @@
 		836CF9B61E275B3500E913F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				836CF9F31E27876000E913F6 /* caret_open@1x.png */,
+				836CF9F41E27876000E913F6 /* caret_open@2x.png */,
+				836CF9F51E27876000E913F6 /* caret_open@3x.png */,
+				836CF9F91E27877A00E913F6 /* caret@1x.png */,
+				836CF9FA1E27877A00E913F6 /* caret@2x.png */,
+				836CF9FB1E27877A00E913F6 /* caret@3x.png */,
 				836CF9B71E275B3500E913F6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,8 +275,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836CF9F21E27724A00E913F6 /* CityTableViewCell.xib in Resources */,
+				836CF9FE1E27877A00E913F6 /* caret@3x.png in Resources */,
+				836CF9EA1E275C6200E913F6 /* ProvinceData.plist in Resources */,
+				836CF9F61E27876000E913F6 /* caret_open@1x.png in Resources */,
+				836CF9F71E27876000E913F6 /* caret_open@2x.png in Resources */,
 				836CF9C61E275B3500E913F6 /* LaunchScreen.storyboard in Resources */,
+				836CF9FD1E27877A00E913F6 /* caret@2x.png in Resources */,
 				836CF9C31E275B3500E913F6 /* Assets.xcassets in Resources */,
+				836CF9FC1E27877A00E913F6 /* caret@1x.png in Resources */,
+				836CF9F81E27876000E913F6 /* caret_open@3x.png in Resources */,
 				836CF9C11E275B3500E913F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,8 +310,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				836CF9BE1E275B3500E913F6 /* ViewController.m in Sources */,
 				836CF9BB1E275B3500E913F6 /* AppDelegate.m in Sources */,
+				836CF9ED1E2760EB00E913F6 /* ProvinceViewController.m in Sources */,
+				836CF9F11E27724A00E913F6 /* CityTableViewCell.m in Sources */,
 				836CF9B81E275B3500E913F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

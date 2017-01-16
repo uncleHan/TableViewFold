@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ProvinceViewController.h
 //  FoldTableVIewText
 //
 //  Created by 恒 韩 on 17/1/12.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ProvinceViewController : UIViewController
 
 @end
-

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ProvinceViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    ProvinceViewController *provinceVc = [[ProvinceViewController alloc]init];
+    UINavigationController *provinceNav = [[UINavigationController alloc]initWithRootViewController:provinceVc];
+    self.window.rootViewController = provinceNav;
     return YES;
 }
 
