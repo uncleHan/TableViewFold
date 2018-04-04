@@ -109,12 +109,14 @@
 - (void)tapAction:(UITapGestureRecognizer *)tap{
     if ([_isExpandArray[tap.view.tag] isEqualToString:@"0"]) {
         //关闭 => 展开
-        [_isExpandArray removeObjectAtIndex:tap.view.tag];
-        [_isExpandArray insertObject:@"1" atIndex:tap.view.tag];
+//         [_isExpandArray removeObjectAtIndex:tap.view.tag];
+//         [_isExpandArray insertObject:@"1" atIndex:tap.view.tag];
+           [_isExpandArray replaceObjectAtIndex:tap.view.tag withObject:@"1"];
     }else{
         //展开 => 关闭
-        [_isExpandArray removeObjectAtIndex:tap.view.tag];
-        [_isExpandArray insertObject:@"0" atIndex:tap.view.tag];
+//         [_isExpandArray removeObjectAtIndex:tap.view.tag];
+//         [_isExpandArray insertObject:@"0" atIndex:tap.view.tag];
+           [_isExpandArray replaceObjectAtIndex:tap.view.tag withObject:@"0"];
         
     }
 //     NSIndexPath *indexPath = [NSIndexPath indexPathForItem:0 inSection:tap.view.tag];
