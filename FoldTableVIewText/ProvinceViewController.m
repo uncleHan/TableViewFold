@@ -117,9 +117,10 @@
         [_isExpandArray insertObject:@"0" atIndex:tap.view.tag];
         
     }
-    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:0 inSection:tap.view.tag];
-    NSRange rang = NSMakeRange(indexPath.section, 1);
-    NSIndexSet *set = [NSIndexSet indexSetWithIndexesInRange:rang];
+//     NSIndexPath *indexPath = [NSIndexPath indexPathForItem:0 inSection:tap.view.tag];
+//     NSRange rang = NSMakeRange(indexPath.section, 1);
+//     NSIndexSet *set = [NSIndexSet indexSetWithIndexesInRange:rang];
+    NSIndexSet *set = [NSIndexSet indexSetWithIndex:tap.view.tag];
     [_provinceTableView reloadSections:set withRowAnimation:UITableViewRowAnimationFade];
     
 }
